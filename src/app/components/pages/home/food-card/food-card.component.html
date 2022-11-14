@@ -1,5 +1,5 @@
 <p>food-card works!</p>
-<div class="d-flex flex-wrap gap-3 justify-content-center px-5">
+<div class="container d-flex flex-wrap gap-3 justify-content-center px-5">
   <div routerLink="/recipe" [queryParams]="{id: food.id}" *ngFor="let food of foods" class="food-card">
     <div>
       <img src={{food.image}} alt={{food.title}} class="imageCard" *ngIf="food.image; else noImage">

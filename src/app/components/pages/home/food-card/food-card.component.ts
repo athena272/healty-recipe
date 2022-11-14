@@ -30,6 +30,7 @@ export class FoodCardComponent implements OnInit {
         })
       )
       .subscribe((data: any) => {
+        console.log(data);
         this.foods = this.foods.concat(data.recipes);
       });
   }
