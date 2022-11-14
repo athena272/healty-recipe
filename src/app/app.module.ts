@@ -8,6 +8,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { SearchComponent } from './components/pages/search/search.component';
+import { FoodCardComponent } from './components/pages/home/food-card/food-card.component';
+import { SingleRecipeComponent } from './components/pages/single-recipe/single-recipe.component';
+import { MainInformationComponent } from './components/pages/single-recipe/main-information/main-information.component';
+import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +21,15 @@ import { SearchComponent } from './components/pages/search/search.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    SearchComponent
+    SearchComponent,
+    FoodCardComponent,
+    SingleRecipeComponent,
+    MainInformationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
