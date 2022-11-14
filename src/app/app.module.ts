@@ -14,6 +14,7 @@ import { MainInformationComponent } from './components/pages/single-recipe/main-
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { SimilarRecipeComponent } from './components/pages/single-recipe/main-information/similar-recipe/similar-recipe.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { SimilarRecipeComponent } from './components/pages/single-recipe/main-in
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,5 +1,6 @@
 <div class="container d-flex">
-  <input type="text" name="search" placeholder="Pesquise por suas receitas" (keydown.enter)="getSearch()" />
+  <input type="text" name="search" placeholder="Pesquise por suas receitas" [(ngModel)]="query"
+    (keydown.enter)="getSearch()" />
   <button (click)="getSearch()">Pesquisar</button>
 </div>
 
