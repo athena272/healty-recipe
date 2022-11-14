@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { finalize } from 'rxjs/internal/operators/finalize';
+import { SearchService } from 'src/app/services/search/search.service';
 
 @Component({
   selector: 'app-search',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  constructor() { }
+  public loading = false;
+  public query = '';
+  public foods: any = [];
 
-  ngOnInit(): void {
+  constructor(private service: SearchService) {}
+
+  ngOnInit(): void {}
+
+  getSearch(): any {
+    this.loading = true;
+    this.service
+      .search(this.query)
+      .pipe(
+        finalize(() => {
+          this.loading = false;
+        })
+      )
+      .subscribe((data: any) => {
+        this.foods = data.results;
+      });
   }
 
 }

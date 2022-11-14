@@ -13,6 +13,7 @@ import { SingleRecipeComponent } from './components/pages/single-recipe/single-r
 import { MainInformationComponent } from './components/pages/single-recipe/main-information/main-information.component';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
+import { SimilarRecipeComponent } from './components/pages/single-recipe/main-information/similar-recipe/similar-recipe.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     SearchComponent,
     FoodCardComponent,
     SingleRecipeComponent,
-    MainInformationComponent
+    MainInformationComponent,
+    SimilarRecipeComponent
   ],
   imports: [
     BrowserModule,
