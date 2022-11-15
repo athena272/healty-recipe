@@ -9,13 +9,13 @@ export class SingleRecipeService {
   constructor(private http: HttpClient) {}
 
   takeRecipe(id: number) {
-    const apiUrl = `https://api.spoonacular.com/recipes/${id}/information?apiKey=5bc2abb6dd144f41aa93da15d256aa03`;
+    const apiUrl = `https://api.spoonacular.com/recipes/${id}/information?apiKey=c0ae654b6a3445cf8b4e0fea42008718`;
 
     return this.http.get(apiUrl);
   }
 
   takeSimilarRecipe(id: number) {
-    const apiUrl = `https://api.spoonacular.com/recipes/${id}/similar?apiKey=5bc2abb6dd144f41aa93da15d256aa03`;
+    const apiUrl = `https://api.spoonacular.com/recipes/${id}/similar?apiKey=c0ae654b6a3445cf8b4e0fea42008718`;
 
     return this.http.get(apiUrl);
   }
