@@ -11,7 +11,7 @@ Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela i
 
 Instalar o Angular
 ```bash
-
+npm install -g @angular/cli
 ```
 ## HomePage
 ### Até 12 receitas aleatórias podem ser carregadas nessa página
