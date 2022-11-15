@@ -4,10 +4,10 @@ Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela i
 ## Ferramentas e depêndencias de build
 ### Link para a API com as receitas usadas: https://spoonacular.com/food-api
 
-- HTML
-- CSS
-- Javascript
-- Angular
+- HTML <img align="center" alt="Gui-HTML" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+- CSS <img align="center" alt="Gui-CSS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+- Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
+- Angular <img align="center" alt="Gui-Angular" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg">
 
 Instalar o Angular
 ```bash
