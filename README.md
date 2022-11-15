@@ -1,27 +1,29 @@
-# HealtyRecipe
+# Healty Life Recipe
+## Sobre o projeto
+Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela inicial são exibidas 12 receitas aleatórias, mas existe a opção de busca no canto superior direito, basta digitar o ingrediente ou nome da receita para fazer a pesquisa. Ao clicar na reeita, é detalhado: Seu tempo de preparo; para quantas pessoas serve; preço de mercado; se é vegetariano; se é vegano; se é saudável; se é popular. **Além de exibir logo embaixo, receitas similares**.
+## Ferramentas e depêndencias de build
+### Link para a API com as receitas usadas: https://spoonacular.com/food-api
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+- HTML
+- CSS
+- Javascript
+- Angular
 
-## Development server
+Instalar o Angular
+```bash
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```
+## HomePage
+### Até 12 receitas aleatórias podem ser carregadas nessa página
+![image](https://user-images.githubusercontent.com/58920070/201810816-9bac22a5-c1e2-4dfc-bcad-795b26051ec7.png)
 
-## Code scaffolding
+## Descrição da Receita
+![image](https://user-images.githubusercontent.com/58920070/201810916-956deb72-dc63-4347-b55f-624ae37075ed.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Receitas Similares
+![image](https://user-images.githubusercontent.com/58920070/201810953-7115452b-d3a4-4306-b146-0301b15c0076.png)
 
-## Build
+## Página de pesquisa
+### São exibidas até 12 receitas daquele ingrediente ou produto
+![image](https://user-images.githubusercontent.com/58920070/201811467-9bc9800b-c3bc-4f98-9bb2-7dce5eaa1913.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
