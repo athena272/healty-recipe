@@ -13,6 +13,11 @@ Instalar o Angular
 ```bash
 npm install -g @angular/cli
 ```
+Rodar o projeto
+```bash
+ng serve
+```
+![image](https://user-images.githubusercontent.com/58920070/201817240-b72af5a4-b34e-4c62-abe3-5e3fb68b9504.png)
 ## HomePage
 ### Até 12 receitas aleatórias podem ser carregadas nessa página
 ![image](https://user-images.githubusercontent.com/58920070/201810816-9bac22a5-c1e2-4dfc-bcad-795b26051ec7.png)
