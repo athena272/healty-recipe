@@ -2,7 +2,7 @@
 ## Sobre o projeto
 Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela inicial são exibidas 12 receitas aleatórias, mas existe a opção de busca no canto superior direito, basta digitar o ingrediente ou nome da receita para fazer a pesquisa. Ao clicar na reeita, é detalhado: Seu tempo de preparo; para quantas pessoas serve; preço de mercado; se é vegetariano; se é vegano; se é saudável; se é popular. **Além de exibir logo embaixo, receitas similares**.
 
-## Link de [Vídeo Apresentaçã](https://www.youtube.com/watch?v=TfkZ31zwVJw)
+## Link de [Vídeo Apresentação](https://www.youtube.com/watch?v=TfkZ31zwVJw)
 
 
 ## Ferramentas e depêndencias de build
