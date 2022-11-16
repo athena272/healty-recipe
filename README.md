@@ -2,11 +2,11 @@
 ## Sobre o projeto
 Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela inicial são exibidas 12 receitas aleatórias, mas existe a opção de busca no canto superior direito, basta digitar o ingrediente ou nome da receita para fazer a pesquisa. Ao clicar na reeita, é detalhado: Seu tempo de preparo; para quantas pessoas serve; preço de mercado; se é vegetariano; se é vegano; se é saudável; se é popular. **Além de exibir logo embaixo, receitas similares**.
 
-## Link de <a href="https://www.youtube.com/watch?v=TfkZ31zwVJw" target="_blank">Vídeo Apresentação</a>
+## Link de [Vídeo Apresentaçã](https://www.youtube.com/watch?v=TfkZ31zwVJw)
 
 
 ## Ferramentas e depêndencias de build
-### Link para a <a href="https://spoonacular.com/food-api" target="_blank">API com as receitas usadas</a>
+### Link para a [API com as receitas usadas](https://spoonacular.com/food-api)
 
 
 - HTML <img align="center" alt="Gui-HTML" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
