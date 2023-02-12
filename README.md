@@ -2,6 +2,7 @@
 ## Sobre o projeto
 Aplicação para buscar receitas com base em ingredientes ou produtos. Na tela inicial são exibidas 12 receitas aleatórias, mas existe a opção de busca no canto superior direito, basta digitar o ingrediente ou nome da receita para fazer a pesquisa. Ao clicar na reeita, é detalhado: Seu tempo de preparo; para quantas pessoas serve; preço de mercado; se é vegetariano; se é vegano; se é saudável; se é popular. **Além de exibir logo embaixo, receitas similares**.
 
+## Link de [Acesso](https://healty-recipe.vercel.app/)
 ## Link de [Vídeo Apresentação](https://www.youtube.com/watch?v=TfkZ31zwVJw)
 
 
@@ -38,4 +39,5 @@ ng serve
 ### São exibidas até 12 receitas daquele ingrediente ou produto
 ![image](https://user-images.githubusercontent.com/58920070/201811467-9bc9800b-c3bc-4f98-9bb2-7dce5eaa1913.png)
 
+## Link de [Acesso](https://healty-recipe.vercel.app/)
 ## Link de [Vídeo Apresentação](https://www.youtube.com/watch?v=TfkZ31zwVJw)
